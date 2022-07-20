@@ -1,0 +1,75 @@
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.startCamera {
+    display: flex;
+    color: #6590f4;
+    justify-content: center;
+    align-self: center;
+    transition-duration: 0.3s;
+    border-radius: 1cm;
+    margin: auto;
+}
+.startCamera:hover {
+    transform: scale(1.5);
+    flex-grow: 1;
+}
+.startCamera:active {
+    transform:scale(1.5);
+    background-color:#6590f4;
+}
+
+.clickPhoto {
+    display: flex;
+    color: #6590f4;
+    justify-content: center;
+    align-self: center;
+    transition-duration: 0.3s;
+    border-radius: 1cm;
+    margin: auto;
+}
+.clickPhoto:hover {
+    transform: scale(1.5);
+    flex-grow: 1;
+}
+.clickPhoto:active {
+    transform:scale(1.5);
+    background-color:#6590f4;
+}
+
+.analyseBtn {
+    display: flex;
+    color: #6590f4;
+    justify-content: center;
+    align-self: center;
+    transition-duration: 0.3s;
+    border-radius: 1cm;
+    margin: auto;
+}
+.analyseBtn:hover {
+    transform: scale(1.5);
+    flex-grow: 1;
+}
+.analyseBtn:active {
+    transform:scale(1.5);
+    background-color:#6590f4;
+}
+
+.myText {
+    border: #000;
+    max-width: 60%;
+    padding-left: 20%;
+}
+
+.statisticsTextBox {
+    border: #000;
+    width: 60%;
+    padding-left: 20%;
+}

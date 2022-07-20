@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title -->
-    <title>Starter Website</title>
-
-    <!-- Style -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Script -->
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <!-- Here's your starter project! Enjoy! -->
-  </body>
+    <title>AI customer satisfaction bot</title>
+    <script src="ai.js" defer></script>
+    <script src="secondproject.js" defer></script>
+    <link rel="stylesheet" href="secondproject.css">
+</head>
+<body>
+    
+    <h1 class="heading">Customer Satisfacion Bot</h1>
+    <div class="buttons">
+       <button id="startCamera" class="startCamera">Start Camera</button>
+       <button id="clickPhoto" class="clickPhoto">Click Photo</button>
+       <button id="analyseBtn" class="analyseBtn">Analyse</button>
+    </div>
+    <div class="container">
+       <video id="securityFootage" width="320" height="240" autoplay>Camera</video>
+       <canvas id="canvas" width="320" height="240">Photo</canvas>
+    </div>
+       <p id="myText" class="myText">Use buttons to begin process. Make sure to click "Click Photo" before "Analyse"</p>
+       <p id="statisticsTextBox" class="statisticsTextBox"></p>
+</body>
 </html>
