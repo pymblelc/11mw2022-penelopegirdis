@@ -1,6 +1,7 @@
 .heading {
     display: flex;
     justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -16,6 +17,7 @@
     transition-duration: 0.3s;
     border-radius: 1cm;
     margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .startCamera:hover {
     transform: scale(1.5);
@@ -34,6 +36,7 @@
     transition-duration: 0.3s;
     border-radius: 1cm;
     margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .clickPhoto:hover {
     transform: scale(1.5);
@@ -52,6 +55,7 @@
     transition-duration: 0.3s;
     border-radius: 1cm;
     margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .analyseBtn:hover {
     transform: scale(1.5);
@@ -66,10 +70,12 @@
     border: #000;
     max-width: 60%;
     padding-left: 20%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .statisticsTextBox {
     border: #000;
     width: 60%;
     padding-left: 20%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
