@@ -99,7 +99,7 @@ analyseBtn.addEventListener("click", function () {
             if (data[0].faceAttributes.emotion.sadness >= 0.251 && data[0].faceAttributes.emotion.happiness <= 0.5) {
                 sadInfo = "the customer looks slightly sad, "
                 //If the customer looks slightly sad, the following string will be "pushed" onto the array "faces"
-                faces.push(" unsatisfied with their purchase")
+                //faces.push(" unsatisfied with their purchase")
             }
             if (data[0].faceAttributes.emotion.sadness >= 0.501 && data[0].faceAttributes.emotion.happiness <= 1) {
                 sadInfo = "the customer looks sad, "
